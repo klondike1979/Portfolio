@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+  margin: 1%;
+  border: 1%;
+  padding: 1%;
+  line-height: 1.5;
+  background-color: rgb(143, 123, 98);
+  display: grid;
+} 
+
+header {
+  position: static;
+  display: flexbox;
+  width: 100%;
+  margin: 0%;
+  border: 5px solid black;
+  border-style: ridge;
+  padding: 5%;
+  background-color: rgb(100, 114, 100);
+  color: aliceblue;
+  text-shadow: 2px 2px 5px rgb(7, 4, 49);
+  }
+  
+.hero-banner {
+  border: 50px solid darkslategray;
+  background-color: antiquewhite;
+  display:inline-flex;
+  margin: 20px;
+  padding: 10px;
+  text-align: center;
+  }
+
+.project-section {
+    display: flex;
+    width: 100%;
+    border: 2px, black;
+    
+  }
+
+.flex-project {
+   width: 100%;
+   border: 50px, black;
+  }
+
+.nav {
+  ;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 10px;
+ 
+}
+
+.page-section {
+  text-align: center;
+  width: 25%;
+}
+
+.page-wrapper {
+  display: inline-block;
+}
+
+p {
+  margin: 5px;
+  border: 5%;
+  padding: 5%;
+  
+}
+
+  #contact {
+  width: 300px;
+  margin: 20px; 
+  border: 15px solid black;
+  padding: 50px;
+
+  text-shadow: 2px 2px 5px rgb(255, 255, 255)
+}
+
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+    margin: 5%;
+    border: 5%;
+    padding: 5%;
+
+  }
+}
