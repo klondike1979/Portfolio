@@ -4,6 +4,11 @@
 	justify-content: center;
 }
 
+a {
+	color: white;
+	text-shadow: 1px 1px 2px black;
+	text-decoration: none;
+}
 body {
 	line-height: 1.5;
 	background-color: rgb(255, 255, 255);
@@ -16,15 +21,18 @@ body {
 	grid-template-columns: 33% 33% 33%;
 	background-color: rgb(121, 162, 202);
 	padding: 10px;
-}
+	text-align: center;
+	margin: auto;
+	border: solid black 10px;
+}	
 
 .grid-item {
 	background-color: rgba(255, 255, 255, 0.8);
-	border: 1px solid rgba(0, 0, 0, 0.8);
-	padding: 60px;
-	font-size: 30px;
-
+	border: 5px solid rgba(0, 0, 0, 0.8);
+	padding: 30px;
+	font-size: auto;
 	text-align: center;
+	justify-self: center;
 }
 
 /* Nav-Bar - Anchor Links */
@@ -112,22 +120,22 @@ button {
 }
 
 #projects {
-justify-content: center;
+	text-align: center;
 }
 
-
 /* menu bar // left side */
-.menu-sidebar {
+/* .menu-sidebar {
 	margin-left: 0px;
 	width: 20%;
 	height: 100%;
 	background-color: rgb(104, 92, 104);
-}
+} */
 
 /* main body of page */
 .page-wrapper {
 	margin: 8% auto;
 	width: 80%;
+
 	/* display: flexbox; */
 	/* flex-direction: row; */
 	/* flex-wrap: nowrap; */
@@ -158,7 +166,6 @@ justify-content: center;
 .portfolio-main {
 	display: flexbox;
 } */
-
 
 /* individual boxes // other projects */
 .flex-project {
@@ -211,19 +218,45 @@ h4,
 h5,
 h6 {
 	margin: 10px;
+	text-align: center;
 }
 
 p {
 	margin: 5px;
 	border: 5%;
 	padding: 5%;
+	text-align: center;
 }
 
 @media only screen and (max-width: 600px) {
+	a {
+		color: white;
+		text-shadow: 1px 1px 2px black;
+		text-decoration: none;
+	}
 	body {
 		background-color: lightblue;
 		margin: 5%;
 		border: 5%;
 		padding: 5%;
+	}
+	.grid-container {
+		display: grid;
+		grid-template-columns: 85%;
+		background-color: rgb(121, 162, 202);
+		padding: 40px;
+		margin: auto;
+		border: solid black 10px;
+	}
+	.grid-item {
+		font-size: medium;
+		justify-content: center;
+		padding: 40px;
+	}
+	.header-container {
+		padding: 5px;
+	}
+	#projects {
+		justify-self: center;
 	}
 }
