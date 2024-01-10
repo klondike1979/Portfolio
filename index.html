@@ -1,92 +1,69 @@
 <!DOCTYPE html>
 <html lang="en-gb">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Kane Hooper // Web Developer</title>
-  <link rel="stylesheet" href="./css/style.css"/>
-</head>
-
-<body>
-<!-- header -->
-<div class="header-container">
-    <header>
-      
-      <h1>Kane Hooper</h1>
-    </header>
-<!-- header // nav bar -->
-    <nav>
-      <button><h3><a href="#contact">about</a></h3></button>
-      <button><h3><a href="#contact">contact</a></h3></button>
-      <div class="search-bar">
-        <input type="text" placeholder="Search">
-        <button>Search</button>
-      </div>
-    </nav>
- </div>
-
-
-
- <!-- menu bar -->
-  <section class="menu-sidebar">
-  </section>
-
-
-<!-- main page // portfolio container -->
-  <main class="page-wrapper">
-
-<!-- main page // hero // first project -->
-  <section class="hero-banner">
-    <div>
-    <h2>Personal Portfolio</h2>
-    <img src="./images/avatar 2.png" id="avatar-img">
-  </section>
-<!-- main page // portfolio // other projects -->
-  <section id="portfolio-main">
-    <section class="project-section-1" id="project">
-      <div class="flex-project">
-        <h2><a href="./pages/calculator/calculator.html">Calculator</a></h2>
-      </div>   
-      <div class="flex-project">
-        <h2><a href="./pages/rock-paper-scissors/rock-paper-scissors.html">Rock, Paper, Scissors</a></h2>
-      </div>   
-      <div class="flex-project">
-        <h2><a href="./pages/online-journal/online-journal.html">Online Journal</a></h2>
-      </div>
-    </section>
-    <section class="project-section-2" id="project">
-      <div class="flex-project">
-        <h2>Placeholder-1</h2>
-      </div>   
-      <div class="flex-project">
-        <h2>Placeholder-2</h2>
-      </div>   
-      <div class="flex-project">
-        <h2>Placeholder-3</h2>
-      </div>
-    </section>
-    <section class="project-section-3" id="project">
-      <div class="flex-project">
-        <h2>Placeholder-4</h2>
-      </div>   
-      <div class="flex-project">
-        <h2>Placeholder-5</h2>
-      </div>   
-      <div class="flex-project">
-        <h2>Placeholder-6</h2>
-      </div>
-    </section>
-  </section>
-      </section>
-      <!-- contact info -->
-      <section class="contact-section" id="contact">
-        <h2>Contact</h2>
-  </main>
-
- 
- 
-</body>
-
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>Kane Hooper // Web Developer</title>
+		<link rel="stylesheet" href="./css/style.css" />
+	</head>
+	<body>
+		<!-- Header -->
+		<section class="header-container">
+			<img src="./images/avatar 1.png" class="header-image" />
+			<header>
+				<h1>Kane Hooper</h1>
+			</header>
+			<!-- Nav bar -->
+			<nav>
+				<div class="links">
+					<button><a href="#projects" class="nav-links">projects</a></button>
+					<button><a href="#about" class="nav-links">about</a></button>
+					<button><a href="#contact" class="nav-links">contact</a></button>
+				</div>
+				<div class="search-bar">
+					<input type="text" placeholder="Search" />
+					<button>Search</button>
+				</div>
+			</nav>
+		</section>
+		<!-- Menu bar -->
+		<section class="menu-sidebar"></section>
+		<!-- Main page container -->
+		<main class="page-wrapper">
+			<!-- About Section -->
+			<section id="about">
+				<h2>About</h2>
+			</section>
+			<!-- Hero / First project -->
+			<section class="hero-banner">
+				<img src="./images/rework code screenshot.png" id="flex-project-0" />
+				<a href="https://klondike1979.github.io/refactor-challenge/"
+					><h2>Refactor Code</h2></a
+				>
+			</section>
+			<!-- Portfolio -->
+			<section id="projects">
+				<h2>Projects Section</h2>
+				<div class="grid-container">
+					<div class="grid-item" id="#grid-project-1">
+						<a href="https://klondike1979.github.io/counter/">Counter</a>
+					</div>
+					<div class="grid-item" id="#grid-project-1">2</div>
+					<div class="grid-item" id="#grid-project-1">3</div>
+					<div class="grid-item" id="#grid-project-1">4</div>
+					<div class="grid-item" id="#grid-project-1">5</div>
+					<div class="grid-item" id="#grid-project-1">6</div>
+					<div class="grid-item" id="#grid-project-1">7</div>
+					<div class="grid-item" id="#grid-project-1">8</div>
+					<div class="grid-item" id="#grid-project-1">9</div>
+				</div>
+			</section>
+			<!-- Contact info -->
+			<section id="contact">
+				<h2>Contact</h2>
+				<p>Kane Hooper<br />Phone: 999<br />Address: 666 Toll Road</p>
+			</section>
+		</main>
+	</body>
 </html>
