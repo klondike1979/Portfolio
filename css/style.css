@@ -13,7 +13,7 @@ body {
 
 .grid-container {
 	display: grid;
-	grid-template-columns: auto auto auto;
+	grid-template-columns: 33% 33% 33%;
 	background-color: rgb(121, 162, 202);
 	padding: 10px;
 }
@@ -75,19 +75,19 @@ button {
 }
 
 #grid-project-1 {
-	background-image: url(/images/IMG_6028.PNG);
+	background-image: url(/images/counter\ screenshot.png);
 	background-size: 100%;
 }
 #grid-project-2 {
-	background-image: url(/images/IMG_6028.PNG);
+	background-image: url(/images/shopping\ list\ screenshot.png);
 	background-size: 100%;
 }
 #grid-project-3 {
-	background-image: url(/images/IMG_6028.PNG);
+	background-image: url(/images/f-to-c\ converter\ screenshot.png);
 	background-size: 100%;
 }
 #grid-project-4 {
-	background-image: url(/images/IMG_6028.PNG);
+	background-image: url(/images/);
 	background-size: 100%;
 }
 #grid-project-5 {
@@ -112,7 +112,7 @@ button {
 }
 
 #projects {
-/* align-content: center; */
+justify-content: center;
 }
 
 

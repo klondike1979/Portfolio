@@ -1,25 +1,25 @@
 # Read Me
 
 ## Description:
-A place to present my personal projects to prospective employers.
+A place to present my personal projects to prospective employers. <br>
+Contains links to previous projects, and placeholders for future ones.
+
+## Link:
+https://klondike1979.github.io/Portfolio/
 
 ## Screenshot:
 []("Screenshot")
- ![Screenshot](./progress%20screenshots/Screenshot%202023-11-28%20134750.png)
+ ![Screenshot](./images/Screenshot%202024-01-10%20111653.png)
 
-## Known Bugs:
-n/a
-
-## #Link:
-https://klondike1979.github.io/Portfolio/
 
 ## Resources:
 W3 Schools
 
 ## Credits:
-EdX
+EdX <br>
+SO Central Grader<br>
 Myself
 
 ## Licensing Information:
-MIT License
+MIT License<br>
 Copyright (c) 2023 klondike1979
